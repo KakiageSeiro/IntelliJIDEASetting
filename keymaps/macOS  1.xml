@@ -1,0 +1,10 @@
+<keymap version="1" name="macOS コピー 1" parent="Mac OS X 10.5+">
+  <action id="CloseContent" />
+  <action id="Images.Thumbnails.Hide" />
+  <action id="PinActiveEditorTab">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="momomo.com.CloseUnlessPinned">
+    <keyboard-shortcut first-keystroke="meta w" />
+  </action>
+</keymap>
