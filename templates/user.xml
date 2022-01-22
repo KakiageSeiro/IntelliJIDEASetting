@@ -1,7 +1,0 @@
-<templateSet group="user">
-  <template name="xx" value="x -&gt; x" description="x -&gt; x" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_CODE" value="true" />
-    </context>
-  </template>
-</templateSet>
