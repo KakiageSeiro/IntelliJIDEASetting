@@ -1,0 +1,28 @@
+<keymap version="1" name="macOSから複製(スタメン" parent="Mac OS X 10.5+">
+  <action id="CloseContent" />
+  <action id="Images.Thumbnails.Hide" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+  </action>
+  <action id="PinActiveEditorTab">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
+  </action>
+  <action id="TabShiftActions.MoveFocusDown">
+    <keyboard-shortcut first-keystroke="ctrl q" second-keystroke="j" />
+  </action>
+  <action id="TabShiftActions.MoveFocusLeft">
+    <keyboard-shortcut first-keystroke="ctrl q" second-keystroke="h" />
+  </action>
+  <action id="TabShiftActions.MoveFocusRight">
+    <keyboard-shortcut first-keystroke="ctrl q" second-keystroke="l" />
+  </action>
+  <action id="TabShiftActions.MoveFocusUp">
+    <keyboard-shortcut first-keystroke="ctrl q" second-keystroke="k" />
+  </action>
+  <action id="momomo.com.CloseUnlessPinned">
+    <keyboard-shortcut first-keystroke="meta w" />
+  </action>
+</keymap>
