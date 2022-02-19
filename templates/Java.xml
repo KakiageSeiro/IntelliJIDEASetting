@@ -20,4 +20,11 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="for1" value="for (int $i$ = 1; $i$ &lt;= $n$; $i$++) {&#10;    &#10;}" description="1始まりのfori" toReformat="false" toShortenFQNames="true">
+    <variable name="i" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="n" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
