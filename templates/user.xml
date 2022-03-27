@@ -12,4 +12,10 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
+  <template name="forre" value="for (int i = $N$ - 1; i &gt;= 0; i--) {&#10;    &#10;}" description="逆順のfori" toReformat="false" toShortenFQNames="true">
+    <variable name="N" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
 </templateSet>
