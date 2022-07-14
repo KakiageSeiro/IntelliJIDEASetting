@@ -1,11 +1,11 @@
 <templateSet group="Java">
-  <template name="print" value="System.out.println(&quot;$a$&quot;);" description="■System.out.println(&quot;&quot;);" toReformat="false" toShortenFQNames="true">
+  <template name="print" value="System.out.println(&quot;$a$&quot;);" description="System.out.println(&quot;&quot;);" toReformat="false" toShortenFQNames="true">
     <variable name="a" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="arr" value="List&lt;$t$&gt; $v$ = new ArrayList&lt;&gt;();" description="■new ArrayList&lt;&gt;();" toReformat="false" toShortenFQNames="true">
+  <template name="arr" value="List&lt;$t$&gt; $v$ = new ArrayList&lt;&gt;();" description="new ArrayList&lt;&gt;();" toReformat="false" toShortenFQNames="true">
     <variable name="t" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="v" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -20,20 +20,9 @@
       <option name="JAVA_CODE" value="true" />
     </context>
   </template>
-  <template name="for1" value="for (int $i$ = 1; $i$ &lt;= $n$; $i$++) {&#10;    &#10;}" description="■1始まりのfori" toReformat="false" toShortenFQNames="true">
+  <template name="for1" value="for (int $i$ = 1; $i$ &lt;= $n$; $i$++) {&#10;    &#10;}" description="1始まりのfori" toReformat="false" toShortenFQNames="true">
     <variable name="i" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="n" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_CODE" value="true" />
-    </context>
-  </template>
-  <template name="toli" value=".collect(Collectors.toList());" description="■Java16ではtoList()でできるらしい" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_CODE" value="true" />
-    </context>
-  </template>
-  <template name="str" value="Streams.stream($list$)" description="■Streamをリスト型に生やしたくない" toReformat="false" toShortenFQNames="true">
-    <variable name="list" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_CODE" value="true" />
     </context>
